@@ -1,0 +1,33 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Firebase Credentials - DO NOT COMMIT!
+e-smart-grid-firebase-adminsdk-fbsvc-1d2f3b9c69.json
+*-firebase-adminsdk-*.json
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Python runtime
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
